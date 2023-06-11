@@ -16,3 +16,4 @@ section .bss
 bits 32
 stack: resb 2*1024*1024
 kernel_stack:
+section .note.GNU-stack

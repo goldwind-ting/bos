@@ -22,3 +22,4 @@ header_start:
     dw MULTIBOOT_FLAGS
     dd MULTIBOOT_SIZE
 header_end:
+section .note.GNU-stack
