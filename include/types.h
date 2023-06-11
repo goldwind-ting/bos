@@ -1,5 +1,5 @@
-#ifndef _TYPES_H
-#define _TYPES_H
+#ifndef __TYPES_H
+#define __TYPES_H
 
 typedef unsigned int size_t;
 
@@ -12,6 +12,8 @@ typedef unsigned char u8;
 typedef unsigned short u16;
 typedef unsigned int u32;
 typedef unsigned long long u64;
+
+typedef unsigned long int	uintptr_t;
 
 typedef int32 pid_t;
 typedef int32 dev_t;
