@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "types.h": "c",
-        "compare": "c",
-        "gdt.h": "c",
-        "string.h": "c",
-        "str.h": "c"
-    }
-}
