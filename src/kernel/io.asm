@@ -1,10 +1,10 @@
 [bits 32]
 
 section .text
-global inb
-global outb
+global inb_
+global outb_
 
-inb:
+inb_:
     push ebp
     mov ebp, esp
     xor eax, eax
@@ -15,7 +15,7 @@ inb:
     leave
     ret
 
-outb:
+outb_:
     push ebp
     mov ebp, esp
     xor eax, eax
